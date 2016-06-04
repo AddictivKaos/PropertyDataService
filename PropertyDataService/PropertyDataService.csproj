@@ -72,6 +72,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="address tokeniser.sql" />
+    <Content Include="addresses with hyphens.sql" />
+    <Content Include="import.sql" />
     <Content Include="PropertyDatabase.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -79,6 +82,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>PropertyDatabase.mdf</DependentUpon>
     </Content>
+    <Content Include="streets and alternate street.sql" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
